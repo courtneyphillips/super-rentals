@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   isImageShowing: false,
- actions: {
+  actions: {
     imageShow: function() {
       this.set('isImageShowing', true);
     },
